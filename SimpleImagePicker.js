@@ -67,7 +67,7 @@ export default function SimpleImagePicker() {
       ]}
     >
       <Text style={[STYLES.title, { color: COLORS.primaryLight }]}>
-        Simple Image Picker
+        S3 イメージアップローダー
       </Text>
       <TouchableOpacity
         onPress={selectImage}
@@ -76,7 +76,7 @@ export default function SimpleImagePicker() {
           { backgroundColor: COLORS.primaryLight }
         ]}
       >
-        <Text style={STYLES.selectButtonTitle}>Pick an image</Text>
+        <Text style={STYLES.selectButtonTitle}>イメージ選択</Text>
       </TouchableOpacity>
     </View>
   );
