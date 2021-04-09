@@ -35,8 +35,9 @@ export default function SimpleImagePicker() {
             keyPrefix: "uploads/",
             bucket: "kids-bowling",
             region: "ap-northeast-1",
-            accessKey: "AKIAQJECJBZ4YHX2IHOT",
-            secretKey: "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",
+            // AWSがうるさい
+            accessKey: "",
+            secretKey: "",
             successActionStatus: 201
         }
         
